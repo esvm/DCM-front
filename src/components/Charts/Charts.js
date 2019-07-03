@@ -16,7 +16,7 @@ export default class Charts extends Component {
       title: "",
       data: []
     };
-    this.eventSource = new EventSource("http://localhost:8080/events");
+    this.eventSource = new EventSource("http://34.74.96.158:80/events");
   }
 
   componentDidMount() {
